@@ -1,97 +1,143 @@
 # Vaultra
 
-> Capital That Thinks.
+> **Capital That Thinks.**
 
-Vaultra is an autonomous onchain treasury agent that helps individuals, DAOs, startups, and onchain organizations manage idle capital intelligently.
+Vaultra is an autonomous onchain treasury agent that transforms passive crypto holdings into an actively managed, intelligent portfolio.
 
-It monitors treasury balances, analyzes portfolio allocations, proposes strategy changes, executes swaps, and maintains transparent logs - all through an AI-powered interface.
+It continuously monitors treasury balances, analyzes allocations, proposes optimized strategies, executes swaps onchain, and maintains full transparency — all through a natural language AI interface.
 
 Built for the **Open Agents Hackathon**.
 
-# Overview
+---
 
-Managing treasury capital manually is slow, inefficient, and reactive.
+# Why Vaultra
 
-Funds often sit idle in stablecoins, portfolios drift from target allocations, opportunities are missed, and execution remains fragmented across wallets and protocols.
+Managing onchain capital today is:
 
-Vaultra solves this by becoming your autonomous treasury team.
+* manual
+* reactive
+* fragmented across tools
+* inefficient
 
-## Vaultra can:
+Funds sit idle. Allocations drift. Opportunities are missed.
 
-- Detect idle capital
-- Monitor allocations in real-time
-- Suggest portfolio rebalancing
-- Execute swaps onchain
-- Adapt to user risk preferences
-- Maintain execution history
-- Operate continuously as an AI treasury agent
+Vaultra replaces this with an **autonomous treasury system** that thinks, plans, and executes like a CFO.
+
+---
+
+# What Vaultra Does
+
+Vaultra acts as your **AI treasury team**, capable of:
+
+* Detecting idle capital in real time
+* Monitoring portfolio allocation drift
+* Generating intelligent rebalancing strategies
+* Executing swaps onchain
+* Adapting to user-defined risk profiles
+* Learning from historical behavior
+* Operating continuously without supervision
+
+---
 
 # Core Features
 
 ## Autonomous Treasury Management
 
-Vaultra continuously evaluates treasury health and proposes actions to optimize capital efficiency.
+Vaultra continuously evaluates portfolio health and proactively suggests or executes improvements.
+
+---
 
 ## AI Chat Interface
 
-Users interact naturally:
+Interact with your treasury like a human:
 
 ```txt
-Keep 40% in stablecoins and medium risk.
-Optimize idle funds.
-Rebalance portfolio now.
-Reduce volatility exposure.
+Keep 40% in stablecoins and medium risk
+Optimize idle funds
+Rebalance portfolio now
+Reduce volatility exposure
 ```
+
+Vaultra translates intent → strategy → execution.
+
+---
 
 ## Smart Rebalancing
 
-Automatically restore target allocations when assets drift.
+Automatically restores target allocations when assets drift beyond thresholds.
+
+---
 
 ## Onchain Execution
 
-Swaps and treasury actions executed through integrated infrastructure.
+Executes real transactions using integrated infrastructure, ensuring:
+
+* transparency
+* composability
+* verifiability
+
+---
 
 ## Persistent Memory
 
-Vaultra learns user preferences over time and improves future decisions.
+Vaultra learns over time:
+
+* risk preferences
+* behavior patterns
+* past decisions
+
+Enabling smarter future actions.
+
+---
 
 ## Full Transparency
 
-Every recommendation and execution is logged.
+Every recommendation, decision, and execution is logged and auditable.
+
+---
 
 # Sponsor Integrations
 
-## 0G
+## 0G — Memory Layer
 
 Used for:
 
-- Persistent memory storage
-- Agent state
-- Historical decisions
-- Long-term treasury intelligence
+* persistent agent memory
+* storing user preferences
+* historical decision tracking
+* long-term agent state
 
-## Uniswap
+---
 
-Used for:
-
-- Asset swaps
-- Rebalancing execution
-- Treasury movement across assets
-
-## KeeperHub
+## Uniswap — Execution Layer
 
 Used for:
 
-- Reliable transaction execution
-- Retry logic
-- Gas optimization
-- Auditable execution layer
+* asset swaps
+* portfolio rebalancing
+* liquidity routing
 
-## ENS
+Vaultra converts AI strategies into executable swap transactions.
+
+---
+
+## KeeperHub — Reliability Layer
 
 Used for:
 
-- Human-readable treasury agent identity
+* transaction execution
+* retry logic
+* gas optimization
+* execution guarantees
+
+---
+
+## ENS — Identity Layer
+
+Used for:
+
+* human-readable agent identity
+* trust and discoverability
 
 Example:
 
@@ -100,74 +146,85 @@ vaultra.eth
 treasuryagent.eth
 ```
 
-## Gensyn AXL
+---
+
+## Gensyn AXL — Communication Layer
 
 Used for:
 
-- Multi-agent communication
-- Planner ↔ Risk ↔ Executor coordination
+* agent-to-agent communication
+* decentralized coordination
+* multi-agent collaboration
 
 ---
 
 # Agent Architecture
 
-Vaultra uses a modular agent system.
+Vaultra is built as a modular multi-agent system:
 
-## Planner Agent
+### Planner Agent
 
-Creates treasury strategies.
+Generates treasury strategies.
 
-## Risk Agent
+### Risk Agent
 
-Measures volatility, concentration, and downside risk.
+Evaluates exposure, volatility, and downside risk.
 
-## Market Agent
+### Market Agent
 
-Scans for rebalancing opportunities.
+Monitors price movements and opportunities.
 
-## Executor Agent
+### Executor Agent
 
-Performs onchain transactions.
+Handles onchain execution.
 
-## Memory Agent
+### Memory Agent
 
-Stores user preferences and historical decisions.
+Stores and retrieves long-term context.
+
+---
 
 # User Flow
 
 ## Onboarding
 
 1. Connect wallet
-2. Detect treasury assets
-3. Choose risk profile
-4. Set treasury goals
-5. Vaultra creates initial strategy
+2. Detect assets
+3. Select risk profile
+4. Define strategy goals
+5. Vaultra generates initial plan
 
-## Daily Use
+---
 
-Vaultra detects idle capital:
+## Daily Usage
+
+Vaultra detects inefficiencies:
 
 ```txt
 $4,200 USDC underutilized.
 Suggested action: Allocate 20% to ETH.
 ```
 
-User can:
+User options:
 
-- Approve manually
-- Enable auto mode
-- Modify strategy
+* Approve execution
+* Modify strategy
+* Enable autonomous mode
 
-## Continuous Automation
+---
 
-Vaultra regularly:
+## Continuous Operation
 
-- checks balances
-- evaluates allocations
-- scans markets
-- triggers rules
-- updates memory
-- logs actions
+Vaultra runs continuously:
+
+* monitors balances
+* evaluates allocation drift
+* detects opportunities
+* executes strategies
+* updates memory
+* logs all activity
+
+---
 
 # Example Interaction
 
@@ -183,39 +240,104 @@ Keep me protected if market drops.
 Rule created:
 
 If ETH drops >8% in 24h:
-- Move 15% portfolio to stablecoins
+- Move 15% of portfolio into stablecoins
 - Pause aggressive buys
 - Notify treasury owner
 ```
+
+---
 
 # Tech Stack
 
 ## Frontend
 
-- Next.js
-- TypeScript
-- Tailwind CSS
-- shadcn/ui
+* Next.js
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+* Framer Motion
+
+---
 
 ## Backend
 
-- Node.js
-- API Routes
+* Node.js
+* Express / API Routes
+* Agent orchestration layer
+
+---
 
 ## AI Layer
 
-- LLM orchestration
-- Agent planning system
+* LLM-powered reasoning (structured prompting)
+* Plan generation → execution pipeline
 
-## Web3
+---
 
-- wagmi
-- viem
-- ethers.js
+## Web3 Stack
 
-## Infra
+* wagmi
+* viem
+* ethers.js
 
-- Vercel
-- 0G
-- Uniswap
-- KeeperHub
+---
+
+## Infrastructure
+
+* Vercel
+* 0G (storage + memory)
+* Uniswap (execution)
+* KeeperHub (reliability)
+
+---
+
+# Demo Flow
+
+1. Connect wallet
+2. Vaultra detects idle capital
+3. User prompts: `Optimize treasury now`
+4. AI generates structured plan
+5. User approves execution
+6. Transaction executes onchain
+7. Portfolio updates in real time
+8. Activity log records action
+
+---
+
+# Key Innovation
+
+Vaultra abstracts complex DeFi workflows into a **single natural language interaction**.
+
+Instead of:
+
+* manually analyzing portfolios
+* choosing protocols
+* executing trades
+
+Users simply **state intent**, and Vaultra handles the rest.
+
+---
+
+# Hackathon Tracks
+
+Vaultra targets:
+
+* 0G Autonomous Agents
+* Uniswap Integration
+* KeeperHub
+* ENS
+* Gensyn AXL
+
+---
+
+# Vision
+
+Treasury management should not be manual.
+
+It should be:
+
+* intelligent
+* adaptive
+* autonomous
+
+Vaultra turns capital into a system that **thinks, learns, and acts**.
